@@ -1,5 +1,5 @@
 /*Right click prohibited*/
-document.oncontextmenu = function () {
+/*document.oncontextmenu = function () {
     new Vue({
         data:function(){
             this.$notify({
@@ -14,7 +14,7 @@ document.oncontextmenu = function () {
         }
     })
     return false;
-    }
+    }*/
     /*Prohibit <a target="_blank" href="https://www.zlsw.cc/" title="View all posts in F12">F12</a>*/
     document.onkeydown = function () {
     if (window.event && window.event.keyCode == 123) {
