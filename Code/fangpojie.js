@@ -1,20 +1,21 @@
 /*Right click prohibited*/
 /*document.oncontextmenu = function () {
-    new Vue({
-        data:function(){
-            this.$notify({
-                title:"嗯？没有右键菜单",
-                message:"复制请用键盘快捷键[Ctrl+C]",
-                position: 'bottom-right',
-                offset: 50,
-                showClose: false,
-                type:"warning"
-            });
-            return{visible:false}
-        }
-    })
-    return false;
-    }*/
+ *     new Vue({
+ *         data:function(){
+ *             this.$notify({
+ *                 title:"嗯？没有右键菜单",
+ *                 message:"复制请用键盘快捷键[Ctrl+C]",
+ *                 position: 'bottom-right',
+ *                 offset: 50,
+ *                 showClose: false,
+ *                 type:"warning"
+ *             });
+ *             return{visible:false}
+ *        }
+ *     })
+ *     return false;
+ *     }
+ */
     /*Prohibit <a target="_blank" href="https://www.zlsw.cc/" title="View all posts in F12">F12</a>*/
     document.onkeydown = function () {
     if (window.event && window.event.keyCode == 123) {
